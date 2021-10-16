@@ -16,6 +16,9 @@
     flex-direction: column;
     .letters{
         width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         background-color: $background-color;
         color: $accent-color;
         margin: $margin-lg;
@@ -31,6 +34,7 @@
             display:inline-block;
             &:hover{ 
                 border : 1px solid black;
+                border-radius: 8px;
                 background: #A5A8AC;
                 color: $background-color;
                 cursor: pointer;
@@ -40,10 +44,14 @@
     }
     .butterflies{
       width: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
       margin: $margin-lg;
       padding: $padding-sm;
       overflow-x: auto;
-      justify-content:stretch;
+      
         h5{
             margin: $margin-sm;
             padding: $padding-sm;
