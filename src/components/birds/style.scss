@@ -32,6 +32,7 @@
             &:hover{ 
                 border : 1px solid black;
                 background: #A5A8AC;
+                color: $background-color;
                 cursor: pointer;
                 transition: all ease 1s;
             }
