@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//birddiaries.tk/static/css/main.50e8bb69.chunk.css",
+    "main.css": "//birddiaries.tk/static/css/main.75696781.chunk.css",
     "main.js": "//birddiaries.tk/static/js/main.28a029f2.chunk.js",
     "main.js.map": "//birddiaries.tk/static/js/main.28a029f2.chunk.js.map",
     "runtime-main.js": "//birddiaries.tk/static/js/runtime-main.7077c3ce.js",
@@ -10,7 +10,7 @@
     "static/js/3.19cda7b0.chunk.js": "//birddiaries.tk/static/js/3.19cda7b0.chunk.js",
     "static/js/3.19cda7b0.chunk.js.map": "//birddiaries.tk/static/js/3.19cda7b0.chunk.js.map",
     "index.html": "//birddiaries.tk/index.html",
-    "static/css/main.50e8bb69.chunk.css.map": "//birddiaries.tk/static/css/main.50e8bb69.chunk.css.map",
+    "static/css/main.75696781.chunk.css.map": "//birddiaries.tk/static/css/main.75696781.chunk.css.map",
     "static/js/2.99028843.chunk.js.LICENSE.txt": "//birddiaries.tk/static/js/2.99028843.chunk.js.LICENSE.txt",
     "static/media/app.scss": "//birddiaries.tk/static/media/butterfly.db213cda.jpg",
     "static/media/profile.acd5c092.jpg": "//birddiaries.tk/static/media/profile.acd5c092.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.7077c3ce.js",
     "static/js/2.99028843.chunk.js",
-    "static/css/main.50e8bb69.chunk.css",
+    "static/css/main.75696781.chunk.css",
     "static/js/main.28a029f2.chunk.js"
   ]
 }
