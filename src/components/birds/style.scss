@@ -16,7 +16,7 @@
     flex-direction: column;
     .letters{
         width: auto;
-        background-color: #2B373D;
+        background-color: $background-color;
         color: $accent-color;
         margin: $margin-lg;
         padding: $padding-sm;
@@ -29,10 +29,11 @@
             border-bottom: 1px solid $accent-color;
             font-size: 18px;
             display:inline-block;
-            &:hover{
+            &:hover{ 
                 border : 1px solid black;
                 background: #A5A8AC;
                 cursor: pointer;
+                transition: all ease 1s;
             }
         }
     }
@@ -53,4 +54,3 @@
 
     }
 }
-
