@@ -1,0 +1,56 @@
+@import '../../global/variable.scss';
+
+.wrap{
+   width: 100%;
+    min-height:100vh;
+   background: $background-color;
+   color: $accent-color;
+   h1{
+       padding: $padding-lg;
+       margin: $margin-md $background-color;
+       text-align: center;
+   }
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    .letters{
+        width: auto;
+        background-color: aquamarine;
+        color: black;
+        margin: $margin-lg;
+        padding: $padding-sm;
+        overflow-x: auto;
+        
+        a{
+            margin: $margin-sm;
+            padding: $padding-sm;
+            text-decoration: none;
+            border-bottom: 1px solid $accent-color;
+            font-size: 18px;
+            display:inline-block;
+            &:hover{
+                border : 1px solid black;
+                background: yellowgreen;
+                cursor: pointer;
+            }
+        }
+    }
+    .butterflies{
+      width: auto;
+      margin: $margin-lg;
+      padding: $padding-sm;
+      overflow-x: auto;
+      justify-content:stretch;
+        h5{
+            margin: $margin-sm;
+            padding: $padding-sm;
+            text-decoration: none;
+            font-size: 18px;
+            display:inline-block;
+            min-width: 360px;
+        }
+
+    }
+}
+

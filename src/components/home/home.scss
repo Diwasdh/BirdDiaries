@@ -1,0 +1,32 @@
+@import '../../global/variable.scss';
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: $padding-lg;
+    a{
+        text-decoration: none;
+        color: $accent-color;
+        padding: $padding-sm;
+        margin-right: $margin-sm;
+        &:hover{
+            transition: transform ease .3s;
+            transform: scale(1.1);
+        }
+    }
+}
+.name{
+    position: absolute;
+    top: 35vh;
+    margin-left: 25vw;
+    h2{
+        color: $accent-color;
+        span{
+            font-size: 52px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import '../../global/variable.scss';
+
+.wrappers{
+    height: 100vh;
+    background: $background-color;
+    width: 100%;
+    color: $accent-color;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $padding-lg;
+}
+.profile{
+    
+    text-align: center;
+    padding: $padding-sm;
+    img{
+        border-radius: 50%;
+        height: 320px;
+        width: 320px;
+        object-fit: cover;
+    }
+}
+
+.icons{
+    color: $accent-color !important;
+    font-size: 28px;
+    padding: $padding-sm;
+    margin: $margin-md;
+    background-color: $background-color;
+    &:hover{
+        border-radius: 10px;
+        border : 1px solid $accent-color;
+        transition: all ease 1.6s;
+        transform: scale(1.05);
+        
+    }
+}

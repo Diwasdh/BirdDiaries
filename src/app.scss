@@ -1,0 +1,24 @@
+@import './global/variable.scss';
+
+.page{
+
+    border-bottom: 1px solid $accent-color;
+}
+.page:nth-child(1){
+    background-color: $background-color;
+    background-image: url('./dist/images/butterfly.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $accent-color;
+}
+@media only screen and (max-width:1200px) {
+    .page:nth-child(1){
+        background-color: $background-color;
+        background-size: contain;
+     background-position-x: left 50%;
+     background-position: center;   
+    }
+}
+#bird{
+    background-color: $background-color;
+}
