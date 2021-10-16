@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Butterflies/static/css/main.39ceb408.chunk.css",
+    "main.js": "/Butterflies/static/js/main.e6c441bf.chunk.js",
+    "main.js.map": "/Butterflies/static/js/main.e6c441bf.chunk.js.map",
+    "runtime-main.js": "/Butterflies/static/js/runtime-main.12d4a9fd.js",
+    "runtime-main.js.map": "/Butterflies/static/js/runtime-main.12d4a9fd.js.map",
+    "static/js/2.5c6d4c47.chunk.js": "/Butterflies/static/js/2.5c6d4c47.chunk.js",
+    "static/js/2.5c6d4c47.chunk.js.map": "/Butterflies/static/js/2.5c6d4c47.chunk.js.map",
+    "static/js/3.bd8a6f98.chunk.js": "/Butterflies/static/js/3.bd8a6f98.chunk.js",
+    "static/js/3.bd8a6f98.chunk.js.map": "/Butterflies/static/js/3.bd8a6f98.chunk.js.map",
+    "index.html": "/Butterflies/index.html",
+    "static/css/main.39ceb408.chunk.css.map": "/Butterflies/static/css/main.39ceb408.chunk.css.map",
+    "static/js/2.5c6d4c47.chunk.js.LICENSE.txt": "/Butterflies/static/js/2.5c6d4c47.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/Butterflies/static/media/butterfly.db213cda.jpg",
+    "static/media/profile.acd5c092.jpg": "/Butterflies/static/media/profile.acd5c092.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12d4a9fd.js",
+    "static/js/2.5c6d4c47.chunk.js",
+    "static/css/main.39ceb408.chunk.css",
+    "static/js/main.e6c441bf.chunk.js"
+  ]
+}
