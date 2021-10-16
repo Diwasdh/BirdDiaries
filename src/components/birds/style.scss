@@ -16,8 +16,8 @@
     flex-direction: column;
     .letters{
         width: auto;
-        background-color: aquamarine;
-        color: black;
+        background-color: #2B373D;
+        color: $accent-color;
         margin: $margin-lg;
         padding: $padding-sm;
         overflow-x: auto;
@@ -31,7 +31,7 @@
             display:inline-block;
             &:hover{
                 border : 1px solid black;
-                background: yellowgreen;
+                background: #A5A8AC;
                 cursor: pointer;
             }
         }
