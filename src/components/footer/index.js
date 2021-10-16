@@ -6,7 +6,10 @@ import {FaGithub} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 import {IconContext} from 'react-icons'
+import {BsFillArrowUpCircleFill} from 'react-icons/bs'
+
 import { ExternalLink } from 'react-external-link'
+
 
 function Footer() {
     return (
@@ -26,6 +29,9 @@ function Footer() {
 
                 </IconContext.Provider>
             </div>
+            <IconContext.Provider value={{className: 'totop'}}>
+            <a href="#home"><BsFillArrowUpCircleFill/> </a>
+            </IconContext.Provider>
         </div>
     )
 }

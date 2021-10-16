@@ -37,3 +37,17 @@
         
     }
 }
+.totop{
+    position: absolute;
+    color: $accent-color !important;
+    font-size: 38px;
+    padding: $padding-sm;
+    margin: $margin-md;
+    background-color: $background-color;
+    left: 90%;
+    margin-top: 10vh;
+    &:hover{
+        transition: all ease 1.3s;
+        transform: scale(1.2);
+    }
+}
